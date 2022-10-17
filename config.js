@@ -1,0 +1,21 @@
+module.exports = {
+    mgmt:{
+        host:"https://api.enterprise.apigee.com",
+        version:"v1",
+        login:{
+            url:"https://login.apigee.com/oauth/token",
+            mfa_url:"https://login.apigee.com/oauth/token??mfa_token=",
+            client:{
+                id:"rakesh.kumawat@neosalpha.com",
+                secret:"P123456@j"
+            }
+        }
+    },
+    apigee:{
+        env:{
+            test:{
+                org:"rakeshkumawat-eval"    
+            }
+        }
+    }
+  };
